@@ -1,9 +1,9 @@
 {
  "gezien": {},
  "fouten": {
-  "https://www.pararius.nl/huurwoningen/zwolle": 2,
+  "https://www.pararius.nl/huurwoningen/zwolle": 3,
   "https://www.huurwoningen.nl/in/zwolle/": 1,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 1,
-  "https://huisvanverhuur.nl/aanbod": 1
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 2,
+  "https://huisvanverhuur.nl/aanbod": 2
  }
 }
