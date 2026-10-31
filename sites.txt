@@ -5,4 +5,5 @@
 # Regels die met # beginnen worden overgeslagen.
 
 https://www.pararius.nl/huurwoningen/zwolle
-https://www.huurwoningen.nl/in/zwolle/
+https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc
+https://huisvanverhuur.nl/aanbod
