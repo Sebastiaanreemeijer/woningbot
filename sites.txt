@@ -1,0 +1,8 @@
+# Zet hieronder je zoekpagina's, één link per regel.
+# Zo doe je dat: zoek op de website (bijv. Pararius) naar Zwolle, stel je
+# filters in (max. huur, m², kamers), sorteer op nieuwste, en kopieer dan de
+# link uit de adresbalk van je browser.
+# Regels die met # beginnen worden overgeslagen.
+
+https://www.pararius.nl/huurwoningen/zwolle
+https://www.huurwoningen.nl/in/zwolle/
