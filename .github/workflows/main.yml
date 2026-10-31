@@ -1,0 +1,36 @@
+name: Woningbot
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # elke 10 minuten
+  workflow_dispatch:          # knop 'Run workflow' om handmatig te testen
+
+permissions:
+  contents: write
+
+concurrency:
+  group: woningbot
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check verhuursites
+        run: python monitor.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+      - name: Onthoud gevonden woningen
+        run: |
+          git config user.name "woningbot"
+          git config user.email "woningbot@users.noreply.github.com"
+          git add seen.json
+          git diff --cached --quiet || (git commit -m "Woningen bijgewerkt" && git push)
