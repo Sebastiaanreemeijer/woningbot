@@ -1,9 +1,11 @@
 name: Woningbot
 
+# GitHub start geplande taken vaak uren te laat. Daarom start deze bot elk uur
+# een "dienst" die zelf bijna 6 uur lang elke 5 minuten checkt.
 on:
   schedule:
-    - cron: "*/10 * * * *"   # elke 10 minuten
-  workflow_dispatch:          # knop 'Run workflow' om handmatig te testen
+    - cron: "7 * * * *"
+  workflow_dispatch:          # knop 'Run workflow' om handmatig te starten
 
 permissions:
   contents: write
@@ -15,7 +17,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
 
@@ -23,14 +25,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check verhuursites
-        run: python monitor.py
+      - name: Installeer browser
+        run: |
+          pip install -q curl_cffi playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Check verhuursites elke 5 minuten
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-
-      - name: Onthoud gevonden woningen
         run: |
           git config user.name "woningbot"
           git config user.email "woningbot@users.noreply.github.com"
-          git add seen.json
-          git diff --cached --quiet || (git commit -m "Woningen bijgewerkt" && git push)
+          einde=$((SECONDS + 20400))   # ~5 uur 40 min, daarna neemt de volgende dienst het over
+          while [ $SECONDS -lt $einde ]; do
+            git pull -q --rebase || true        # pakt wijzigingen in sites.txt op
+            echo "=== Check $(TZ=Europe/Amsterdam date '+%d-%m %H:%M')"
+            python monitor.py || echo "Check mislukt, volgende poging over 5 minuten"
+            git add seen.json
+            git diff --cached --quiet || (git commit -q -m "Woningen bijgewerkt" && git push -q) || true
+            sleep 300
+          done
