@@ -1,9 +1,25 @@
 {
- "gezien": {},
+ "gezien": {
+  "https://huisvanverhuur.nl/aanbod": [
+   "https://huisvanverhuur.nl/aanbod/reset",
+   "https://huisvanverhuur.nl/aanbod/kaart",
+   "https://huisvanverhuur.nl/aanbod/865/botervatstraat_3_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1581/nieuwstraat_61s_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1045/hoofdstraat_103f_meppel",
+   "https://huisvanverhuur.nl/aanbod/1487/nieuwstraat_52_zwolle",
+   "https://huisvanverhuur.nl/aanbod/989/thomas_a_kempisstraat_32a_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1582/turfsingel_9d_groningen",
+   "https://huisvanverhuur.nl/aanbod/1578/weeshuisstraat_51_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1482/rozenstraat_13_leeuwarden",
+   "https://huisvanverhuur.nl/aanbod/1577/nieuwstraat_61b_zwolle",
+   "https://huisvanverhuur.nl/aanbod/700/thomas_a_kempisstraat__100_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1481/thomas_a_kempisstraat_26e_zwolle",
+   "https://huisvanverhuur.nl/aanbod/1145/thomas_a_kempisstraat_100a_zwolle"
+  ]
+ },
  "fouten": {
-  "https://www.pararius.nl/huurwoningen/zwolle": 37,
-  "https://www.huurwoningen.nl/in/zwolle/": 1,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 36,
-  "https://huisvanverhuur.nl/aanbod": 36
+  "https://www.pararius.nl/huurwoningen/zwolle": 38,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 37,
+  "https://huisvanverhuur.nl/aanbod": 0
  }
 }
