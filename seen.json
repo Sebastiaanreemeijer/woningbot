@@ -47,11 +47,43 @@
    "https://www.pararius.nl/kamer-te-huur/zwolle/289e3a50/sassenstraat",
    "https://www.pararius.nl/appartement-te-huur/zwolle/9e289ecb/meltersgang",
    "https://www.pararius.nl/appartement-te-huur/zwolle/e33c69e3/nieuwstraat"
+  ],
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": [
+   "https://www.huurwoningen.nl/huren/zwolle/2c06f9af/thomas-a-kempisstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/cd7f2f82/langenholterweg",
+   "https://www.huurwoningen.nl/huren/zwolle/f8a2cd94/nachtegaalstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/f6fd6c91/nachtegaalstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/84688e3e/diezerplein",
+   "https://www.huurwoningen.nl/huren/zwolle/e38b00f1/krabbestraat",
+   "https://www.huurwoningen.nl/huren/zwolle/28879c48/nieuwstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/156ec024/assendorperstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/c498bdd2/schuttevaerkade",
+   "https://www.huurwoningen.nl/huren/zwolle/70b8a2cf/prins-mauritsstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/c773d778/ruusbroecstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/f4297397/korte-kamperstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/f09e413f/tuinstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/3ff08971/papenstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/8cfceeb5/telemannstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/94cc9a47/thomas-a-kempisstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/fb9c0e6f/berkumhof",
+   "https://www.huurwoningen.nl/huren/zwolle/56e82252/van-der-heydenstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/14c37058/palestrinalaan",
+   "https://www.huurwoningen.nl/huren/zwolle/b3737a11/voorstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/599b2658/melkmarkt",
+   "https://www.huurwoningen.nl/huren/zwolle/3f997df8/ossenmarkt",
+   "https://www.huurwoningen.nl/huren/zwolle/728d0270/korte-kamperstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/4f7361ea/korte-kamperstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/825d91ca/stellingmolen",
+   "https://www.huurwoningen.nl/huren/zwolle/03310e1b/frobergerstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/1cd14b82/obrechtstraat",
+   "https://www.huurwoningen.nl/huren/zwolle/459059ad/noordzeelaan",
+   "https://www.huurwoningen.nl/huren/zwolle/49100853/diezerkade",
+   "https://www.huurwoningen.nl/huren/zwolle/832b1627/nieuwstraat"
   ]
  },
  "fouten": {
   "https://www.pararius.nl/huurwoningen/zwolle": 0,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 38,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 0,
   "https://huisvanverhuur.nl/aanbod": 0
  }
 }
