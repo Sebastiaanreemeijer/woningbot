@@ -15,11 +15,43 @@
    "https://huisvanverhuur.nl/aanbod/700/thomas_a_kempisstraat__100_zwolle",
    "https://huisvanverhuur.nl/aanbod/1481/thomas_a_kempisstraat_26e_zwolle",
    "https://huisvanverhuur.nl/aanbod/1145/thomas_a_kempisstraat_100a_zwolle"
+  ],
+  "https://www.pararius.nl/huurwoningen/zwolle": [
+   "https://www.pararius.nl/appartement-te-huur/zwolle/e3901a05/langenholterweg",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/bb559684/nachtegaalstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/f9d46d83/diezerplein",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/9b46034a/krabbestraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/671be974/nieuwstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/ce9fd97f/assendorperstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/35586215/schuttevaerkade",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/6e644eb6/prins-mauritsstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/805f80c9/korte-kamperstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/5e945112/tuinstraat",
+   "https://www.pararius.nl/studio-te-huur/zwolle/75973b4e/hoogstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/e48c86fa/papenstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/02fa37eb/van-ittersumstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/5b8cf46d/berkumhof",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/c9ba3284/diezerkade",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/ec525a41/nieuwstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/2f34dc8e/nachtegaalstraat",
+   "https://www.pararius.nl/huis-te-huur/zwolle/cd59e62f/altgerinkstraat",
+   "https://www.pararius.nl/huis-te-huur/zwolle/684c9722/twistvlietpad",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/3026d419/spoelstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/60fb3cdd/spoelstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/d6c1f9c8/groeneweg",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/9a9ab133/assendorperdijk",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/fac6996d/coetsstraat",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/009a41a3/coetsstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/d408c16f/burgemeester-van-roijensingel",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/ab243e47/groeneweg",
+   "https://www.pararius.nl/kamer-te-huur/zwolle/289e3a50/sassenstraat",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/9e289ecb/meltersgang",
+   "https://www.pararius.nl/appartement-te-huur/zwolle/e33c69e3/nieuwstraat"
   ]
  },
  "fouten": {
-  "https://www.pararius.nl/huurwoningen/zwolle": 38,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 37,
+  "https://www.pararius.nl/huurwoningen/zwolle": 0,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 38,
   "https://huisvanverhuur.nl/aanbod": 0
  }
 }
