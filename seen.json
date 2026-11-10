@@ -82,8 +82,8 @@
   ]
  },
  "fouten": {
-  "https://www.pararius.nl/huurwoningen/zwolle": 0,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 4,
+  "https://www.pararius.nl/huurwoningen/zwolle": 1,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 5,
   "https://huisvanverhuur.nl/aanbod": 0
  }
 }
