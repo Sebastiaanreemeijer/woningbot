@@ -1,6 +1,7 @@
 {
  "gezien": {
   "https://huisvanverhuur.nl/aanbod": [
+   "https://huisvanverhuur.nl/aanbod/1584/friesestraatweg_141_groningen",
    "https://huisvanverhuur.nl/aanbod/1583/friesestraatweg_141_groningen",
    "https://huisvanverhuur.nl/aanbod/reset",
    "https://huisvanverhuur.nl/aanbod/kaart",
@@ -84,7 +85,7 @@
  },
  "fouten": {
   "https://www.pararius.nl/huurwoningen/zwolle": 0,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 7,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 8,
   "https://huisvanverhuur.nl/aanbod": 0
  }
 }
