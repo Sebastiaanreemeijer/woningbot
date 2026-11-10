@@ -1,6 +1,7 @@
 {
  "gezien": {
   "https://huisvanverhuur.nl/aanbod": [
+   "https://huisvanverhuur.nl/aanbod/1583/friesestraatweg_141_groningen",
    "https://huisvanverhuur.nl/aanbod/reset",
    "https://huisvanverhuur.nl/aanbod/kaart",
    "https://huisvanverhuur.nl/aanbod/865/botervatstraat_3_zwolle",
@@ -82,8 +83,8 @@
   ]
  },
  "fouten": {
-  "https://www.pararius.nl/huurwoningen/zwolle": 1,
-  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 5,
+  "https://www.pararius.nl/huurwoningen/zwolle": 2,
+  "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 6,
   "https://huisvanverhuur.nl/aanbod": 0
  }
 }
