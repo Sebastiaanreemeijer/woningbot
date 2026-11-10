@@ -17,7 +17,7 @@ import os
 import re
 import urllib.request
 from html.parser import HTMLParser
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import parse_qs, urljoin, urlparse, urlunparse
 
 TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 STATE_FILE = "seen.json"
@@ -32,6 +32,7 @@ PATRONEN = {
     "huurwoningen.com": r"/huren/[^/]+/[0-9a-f]{8}(/|$)",
     "funda.nl": r"/detail/huur/.+/\d{6,}",
     "kamernet.nl": r"/huren/[^/]+/[^/]+/[a-z]+-\d{5,}",
+    "directwonen.nl": r"/huurwoningen-huren/[^/]+/[^/]+/[a-z-]+-\d{5,}",
 }
 # Voor andere sites (bijv. een lokale makelaar): links met een woning-ID erin
 ALGEMEEN = r"/[^?#]*(\d{5,}|[0-9a-f]{8})"
@@ -136,6 +137,10 @@ def woning_links(zoek_url, html):
     gevonden = []
     for href in parser.links:
         volledig = urljoin(zoek_url, href)
+        # Woningen achter een betaalmuur: de echte link zit in 'returnUrl'
+        terug = parse_qs(urlparse(volledig).query).get("returnUrl")
+        if terug:
+            volledig = urljoin(zoek_url, terug[0])
         if domein(volledig) != d:
             continue
         pad = urlparse(volledig).path

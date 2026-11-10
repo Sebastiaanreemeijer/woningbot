@@ -1,9 +1,27 @@
 # Zet hieronder je zoekpagina's, één link per regel.
-# Zo doe je dat: zoek op de website (bijv. Pararius) naar Zwolle, stel je
-# filters in (max. huur, m², kamers), sorteer op nieuwste, en kopieer dan de
+# Zo doe je dat: zoek op de website naar Zwolle, stel je filters in
+# (max. huur, m², kamers), sorteer op nieuwste, en kopieer dan de
 # link uit de adresbalk van je browser.
 # Regels die met # beginnen worden overgeslagen.
 
-https://www.pararius.nl/huurwoningen/zwolle
-https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc
+https://www.funda.nl/zoeken/huur?selected_area=[%22zwolle%22]&sort=%22date_down%22
+https://www.vesteda.com/nl/woning-zoeken?placeType=1&sortType=0&radius=20&s=Zwolle&sc=woning&latitude=52.51677322387695&longitude=6.083022117614746&filters=&priceFrom=500&priceTo=9999
+https://www.123wonen.nl/huurwoningen/in/zwolle/sort/newest
 https://huisvanverhuur.nl/aanbod
+https://maxxhuren.nl/woonruimte-huren/?city=Zwolle&type=&max=
+https://hartstadmakelaars.nl/aanbod/?filter-type=huren&price-min=0&price-max=unlimited&bedrooms-min=0&bedrooms-max=unlimited&surface-min=0&surface-max=unlimited
+https://www.huisraadmakelaardij.nl/aanbod
+https://vvz.nu/aanbod/
+https://www.pepermakelaars.nl/aanbod/woningaanbod/ZWOLLE/huur/
+https://kamernet.nl/huren/huurwoningen-zwolle?radius=5&minSize=0&maxRent=0
+https://vbtverhuurmakelaars.nl/woningen
+https://huurenbeheer.nl/overzicht-huuraanbod/
+https://nederwoon.nl/search?search_type=1&city=Zwolle+%281%29
+https://www.domica.nl/woningaanbod?offer=rent&location=Zwolle
+https://degraafvanvilsteren.nl/woningaanbod?buy_rent=rent
+https://www.dewoningwinkel.nl/woningaanbod?bog=off&offer=rent&location=Zwolle&surface=42
+https://directwonen.nl/huurwoningen-huren/zwolle
+https://www.vestim.nl/woningen?kantoor=zwolle&status=&min-price=&max-price=
+https://homebay.nl/aanbod/
+https://nmgwonen.nl/huur/#q1ZKTClKLY4vyElMLAFS-cUlyfkpqUpWSlXl-Tk5qUo6SgWJ6anFQIGM0tIipVoA
+https://www.woninghuren.nl/aanbod/te-huur#?gesorteerd-op=prijs%2B&locatie=Zwolle
