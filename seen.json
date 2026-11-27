@@ -393,6 +393,7 @@
    "https://nederwoon.nl/huurwoning/meppel/38881/woonhuis-omslag"
   ],
   "https://www.dewoningwinkel.nl/woningaanbod?bog=off&offer=rent&location=Zwolle&surface=42": [
+   "https://www.dewoningwinkel.nl/woning/zwolle-van-nahuysplein-H01002783857",
    "https://www.dewoningwinkel.nl/woning/zwolle-assendorperstraat-H01001716744",
    "https://www.dewoningwinkel.nl/woning/zwolle-burgemeester-van-roijensingel-H01002783967",
    "https://www.dewoningwinkel.nl/woning/zwolle-meltersgang-H01002783811",
@@ -404,6 +405,8 @@
    "https://www.dewoningwinkel.nl/woning/zwolle-menno-van-coehoornsingel-H01002615693"
   ],
   "https://directwonen.nl/huurwoningen-huren/zwolle": [
+   "https://directwonen.nl/huurwoningen-huren/zwolle/prof.-feldmannweg/woning-524610",
+   "https://directwonen.nl/huurwoningen-huren/zwolle/van-nahuysplein/appartement-524599",
    "https://directwonen.nl/huurwoningen-huren/zwolle/prof.-feldmannweg/woning-524557",
    "https://directwonen.nl/huurwoningen-huren/zwolle/govert-flinckstraat/appartement-524558",
    "https://directwonen.nl/huurwoningen-huren/zwolle/goudsteeg/appartement-524559",
@@ -493,23 +496,23 @@
  "fouten": {
   "https://www.huurwoningen.nl/in/zwolle/?sort=published_at&direction=desc": 0,
   "https://huisvanverhuur.nl/aanbod": 0,
-  "https://www.funda.nl/zoeken/huur?selected_area=[%22zwolle%22]&sort=%22date_down%22": 662,
+  "https://www.funda.nl/zoeken/huur?selected_area=[%22zwolle%22]&sort=%22date_down%22": 663,
   "https://www.vesteda.com/nl/woning-zoeken?placeType=1&sortType=0&radius=20&s=Zwolle&sc=woning&latitude=52.51677322387695&longitude=6.083022117614746&filters=&priceFrom=500&priceTo=9999": 0,
-  "https://www.123wonen.nl/huurwoningen/in/zwolle/sort/newest": 2989,
+  "https://www.123wonen.nl/huurwoningen/in/zwolle/sort/newest": 2990,
   "https://maxxhuren.nl/woonruimte-huren/?city=Zwolle&type=&max=": 0,
   "https://hartstadmakelaars.nl/aanbod/?filter-type=huren&price-min=0&price-max=unlimited&bedrooms-min=0&bedrooms-max=unlimited&surface-min=0&surface-max=unlimited": 0,
   "https://www.huisraadmakelaardij.nl/aanbod": 0,
   "https://vvz.nu/aanbod/": 0,
-  "https://www.pepermakelaars.nl/aanbod/woningaanbod/ZWOLLE/huur/": 553,
+  "https://www.pepermakelaars.nl/aanbod/woningaanbod/ZWOLLE/huur/": 554,
   "https://kamernet.nl/huren/huurwoningen-zwolle?radius=5&minSize=0&maxRent=0": 0,
-  "https://vbtverhuurmakelaars.nl/woningen": 2989,
+  "https://vbtverhuurmakelaars.nl/woningen": 2990,
   "https://huurenbeheer.nl/overzicht-huuraanbod/": 0,
   "https://nederwoon.nl/search?search_type=1&city=Zwolle+%281%29": 0,
-  "https://www.domica.nl/woningaanbod?offer=rent&location=Zwolle": 56,
-  "https://degraafvanvilsteren.nl/woningaanbod?buy_rent=rent": 2989,
-  "https://www.dewoningwinkel.nl/woningaanbod?bog=off&offer=rent&location=Zwolle&surface=42": 56,
+  "https://www.domica.nl/woningaanbod?offer=rent&location=Zwolle": 0,
+  "https://degraafvanvilsteren.nl/woningaanbod?buy_rent=rent": 2990,
+  "https://www.dewoningwinkel.nl/woningaanbod?bog=off&offer=rent&location=Zwolle&surface=42": 0,
   "https://directwonen.nl/huurwoningen-huren/zwolle": 0,
-  "https://www.vestim.nl/woningen?kantoor=zwolle&status=&min-price=&max-price=": 2989,
+  "https://www.vestim.nl/woningen?kantoor=zwolle&status=&min-price=&max-price=": 2990,
   "https://homebay.nl/aanbod/": 0,
   "https://nmgwonen.nl/huur/#q1ZKTClKLY4vyElMLAFS-cUlyfkpqUpWSlXl-Tk5qUo6SgWJ6anFQIGM0tIipVoA": 0,
   "https://www.woninghuren.nl/aanbod/te-huur#?gesorteerd-op=prijs%2B&locatie=Zwolle": 0
